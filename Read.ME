@@ -1,0 +1,35 @@
+# FASTA Sequence Extractor
+
+This Python script extracts sequences from a FASTA file based on a list of sequence IDs provided in a text file. It uses the Biopython library for efficient handling of biological data.
+
+## Usage
+
+
+1. Install the required dependencies:
+
+
+    pip install biopython
+
+
+2. Run the script:
+
+
+    python extract_sequences.py input.fasta output.fasta sequence_ids.txt
+
+
+    - `input.fasta`: Path to the input FASTA file.
+    - `output.fasta`: Path to the output FASTA file where the extracted sequences will be saved.
+    - `sequence_ids.txt`: File containing sequence IDs to extract, with one ID per line.
+
+## Example
+
+
+python extract_sequences.py example.fasta output.fasta example_ids.txt
+
+This will extract sequences with IDs listed in example_ids.txt from example.fasta and save them to output.fasta.
+
+Requirements
+
+    Python 3.x
+    Biopython library
+
